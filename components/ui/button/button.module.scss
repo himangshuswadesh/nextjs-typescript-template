@@ -1,0 +1,14 @@
+.button {
+  background-color: $primary-color;
+  color: $white;
+  padding: 0.75rem 1.5rem;
+  height: auto;
+  box-shadow: none;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  &:hover {
+    background-color: $secondary-color;
+    color: $white;
+  }
+}
