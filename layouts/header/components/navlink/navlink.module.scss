@@ -1,0 +1,12 @@
+.navLink {
+  text-transform: uppercase;
+  color: $black;
+  font-size: 0.875rem;
+  font-weight: 500;
+  &:hover {
+    color: $primary-color;
+  }
+  &.active {
+    color: $primary-color;
+  }
+}

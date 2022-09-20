@@ -1,4 +1,5 @@
-import Link from 'next/link';
+import NavLink from './components/navlink';
+import { NavItems } from './data';
 import styles from './header.module.scss';
 const Header = () => {
   return (
@@ -8,16 +9,13 @@ const Header = () => {
           <h2>Nextjs Template</h2>
           <nav>
             <ul>
-              <li>
-                <Link href="/">
-                  <a className={styles.navLink}>Home</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/about">
-                  <a className={styles.navLink}>About</a>
-                </Link>
-              </li>
+              {NavItems.map((navItem) => (
+                <li key={navItem.id}>
+                  <NavLink exact={navItem.exact} href={navItem.path}>
+                    {navItem.title}
+                  </NavLink>
+                </li>
+              ))}
             </ul>
           </nav>
         </div>
