@@ -17,11 +17,11 @@
     "incremental": true,
     "paths": {
       "@styles/*": ["styles/*"],
-      "@components": ["components"],
-      "@layouts": ["layouts"],
-      "@views": ["views"]
+      "@rootcomponents/*": ["rootcomponents/*"],
+      "@rootlayouts/*": ["rootlayouts/*"],
+      "@views/*": ["views/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts"],
   "exclude": ["node_modules"]
 }
