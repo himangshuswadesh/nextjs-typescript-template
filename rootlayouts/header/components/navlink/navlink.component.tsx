@@ -11,8 +11,8 @@ type NavLInkProps = {
 const NavLink = ({ children, href, exact }: NavLInkProps) => {
   const router = useRouter();
   const isActive = exact
-    ? router.pathname === href
-    : router.pathname.startsWith(href);
+    ? router?.pathname === href
+    : router?.pathname.startsWith(href);
 
   return (
     <Link href={href}>

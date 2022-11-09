@@ -1,5 +1,5 @@
-import Footer from 'layouts/footer';
-import Header from 'layouts/header';
+import Footer from '@rootlayouts/footer';
+import Header from '@rootlayouts/header';
 import Head from 'next/head';
 import { ReactNode } from 'react';
 type PageContainerProps = {

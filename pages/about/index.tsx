@@ -1,4 +1,4 @@
-import { AboutPage } from '@views';
+import AboutPage from '@views/aboutpage';
 import type { NextPage } from 'next';
 
 const About: NextPage = () => {
