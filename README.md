@@ -10,6 +10,8 @@ This template contains these libraries:
 - [Husky](https://typicode.github.io/husky/#/)
 - [Sass](https://sass-lang.com/)
 - [Commit Lint](https://commitlint.js.org/#/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/)
 
 # Installation
 
